@@ -204,7 +204,7 @@ $(function(){
         animatePath();
         
         if (opts.shade) {
-            shades[i].attr({ path: path.concat(["L", X, y + height - gutter, "L",  x + gutter + ((valuesx[i] || valuesx[0])[0] - minx) * kx, y + height - gutter, "z"]).join(",") });
+            shades[i].attr({ path: path.concat(["L", X, y + height, "L",  x + ((valuesx[i] || valuesx[0])[0] - minx) * kx, y + height, "z"]).join(",") });
         }
 
         function animatePath() {
