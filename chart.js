@@ -61,7 +61,7 @@ $(function(){
                 .attr({'stroke-width': 1, 'stroke': color, 'stroke-opacity': 1,opacity: 1});   
         }
         
-        //podzialki
+        //scales
         r.path("M"+(start[1]+dist[0]*j)+" "+(start[1]+size[1]+5)+" L "+(start[1]+dist[0]*j)+" "+(start[1]+size[1]))
          .attr({'stroke-width': 1, 'stroke': 'black' , 'stroke-opacity': 1, opacity: 1});   
             
